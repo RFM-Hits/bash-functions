@@ -228,4 +228,6 @@ function ask_user {
     esac
   done
 
+
   eval "$var_name=\"$input\""
+  }

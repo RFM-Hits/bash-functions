@@ -61,6 +61,9 @@ function rpi_model() {
             "Raspberry Pi 4 Model B Rev 1.1")
                 return 0
                 ;;
+            "Raspberry Pi 5 Model B Rev 1.0")
+                return 0
+                ;;
             *)
                 echo -e "${RED}This script is only for Raspberry Pi 3 Model B, Raspberry Pi 3 Model B Plus and Raspberry Pi 4 Model B.${WHITE}"
                 exit 1
